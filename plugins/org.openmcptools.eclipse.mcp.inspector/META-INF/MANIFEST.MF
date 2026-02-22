@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MCP Inspector for Eclipse
+Bundle-SymbolicName: org.openmcptools.eclipse.mcp.inspector;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: OpenAPITools
+Require-Bundle: org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.core.runtime,
+ org.eclipse.ui
+Automatic-Module-Name: org.openmcptools.eclipse.mcp.inspector
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
